@@ -1,0 +1,23 @@
+{
+  "name": "haxs-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "rep": "npx @tailwindcss/cli -i ./dist/css/input.css -o ./dist/css/output.css --watch",
+    "pr": "npx prettier --write '**/*.{js,html}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11"
+  }
+}

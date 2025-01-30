@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Haxs Web</title>
+    <link rel="icon" href="dist/img/logo/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="dist/css/fontawesome.css"
+    />
+    <link rel="stylesheet" href="dist/css/output.css" />
+  </head>
+  <body>
+
+    <header class="bg-transparent  justify-center absolute w-full flex items-center z-10 ">
+        <div class="container">
+            <div class="flex items-center justify-between md:h-20 ">
+                <div class="px-4">
+                    <a href="#hero" class="flex font items-center">
+                        <img src="dist/img/Logo/Logo.png" alt="" class="w-7 flex py-4 md:py-0 dark:drop-shadow-lg dark:shadow-white">
+                        <p class="text-2xl text-white">HAXS.</p>
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="ham" name="ham" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="ham-line transition duration-300 ease-in-out origin-top-right"></span>
+                        <span class="ham-line transition duration-300 ease-in-out"></span>
+                        <span class="ham-line transition duration-300 ease-in-out origin-bottom-right"></span>
+                    </button>
+
+
+                    <nav id="menu" class=" md:hidden  absolute -right-[200px] top-[70px]  pr-4 py-4 rounded-lg transition-all duration-300 delay-100 ease-in-out  bg-gray-800 shadow-xl  max-w-[170px] w-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:backdrop-blur-none lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#about" class="ham-menu">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skil" class="ham-menu ">Skill</a>
+                            </li>
+                            <li class="group">
+                                <a href="#proj" class="ham-menu">Projects</a>
+                            </li>
+                            <li class="group">
+                                <a href="#cont" class="ham-menu1">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="hero" class="py-32 dark:bg-darkmode lg:pt-40 justify-center justify-items-center">
+        <div class="container">
+            <div class="flex flex-wrap  justify-center justify-items-center md:px-20">
+                <div class="w-full self-center text-white px-4 hidden lg:block lg:w-auto">
+                    <a href="https://www.instagram.com/harys_rusty/">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="hero-a1 " width="35px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    </a>
+
+                    <a href="https://github.com/harysm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="hero-a1" width="35px" viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>    
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/m-harys-rusty-wibawa-97b83a290/">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="hero-a1" width="35px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg> 
+                    </a>
+                </div>
+
+                <div class="w-full self-center px-4 md:w-[700px] ">
+                    <h1 class="text-base text-white font-semibold text-primary md:text-xl">Hi, Welcome to my website 
+                        <span class="block font-giga font-bold text-dark text-3xl md:text-6xl dark:text-white">M Harys Rusty Wibawa</span></h1>
+                    <h2 class="font-medium text-lg mb-5 dark:text-slate-300"><span class="text-dark lg:text-xl dark:text-slate-300">Front-End Web Developer</span></h2>
+                  
+
+                    <div class="w-full flex self-center px-4 text-white text-left lg:hidden lg:w-fit">
+                        <a href="https://www.instagram.com/harys_rusty/">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="hero-a2" width="25px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a>
+    
+                        <a href="https://github.com/harysm">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hero-a2" width="25px" viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>    
+                        </a>
+    
+                        <a href="https://www.linkedin.com/in/m-harys-rusty-wibawa-97b83a290/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hero-a2" width="25px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg> 
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full self-end px-4 md:w-[500px]">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="dist/img/Hero/ME.png" alt="" class="max-w-full mx-auto border-black shadow-xl rounded-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="about" class="pt-10 lg:pt-16 justify-center justify-items-center  ">
+        <div class="container">
+
+            <h1 class="text-3xl md:text-4xl text-white font-giga px-4">About Me</h1>
+                <div class="bg-white border absolute border-white rotate-90 ml-6 rounded-lg w-1 h-20 translate-y-[-57px] translate-x-[220px] md:h-[400px] md:translate-y-[-220px] md:translate-x-[420px]"></div>
+
+            <div class="flex flex-wrap ">
+
+                
+                <div class="w-full lg:float-right self-center px-4 lg:w-1/2 ">
+                    <div class="mt-10">
+                        <img src="dist/img/Hero/me2.jpg" alt="mockup" 
+                        class="shadow-lg lg:h-[600px] rounded-lg">
+                    </div>
+                </div>
+
+                <div class="w-full self-center mt-16 px-4 lg:w-1/2">
+                    <p class=" text-white text-lg md:text-xl  leading-relaxed">
+                        Hi, I'm M.Harys Rusty Wibawa you can call me harys I am a front-end web developer and I am a graduate of SMKN 9 Medan majoring in Software Engineering or commonly called RPL in Indonesia.
+                        <br><br>
+                        I like the world of technology and design that's why I took software engineering and I also like robots I have a dream of having everything I want in the field of technology yes I know it's difficult, because I like design and technology I try to become a front-end Web Developer where I can channel my imagination here.
+                        <br><br>
+                        I prefer to be a designer of a system such as UI Design, UX Design, and Web FE Developer. Because in my opinion it is not only a design but a work of art that can be enjoyed in a system such as Web, Applications / Software, Games with an attractive UI UX, users will definitely be happy to use it or just want to see it.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skil" class="pt-16 lg:pt-20 justify-center justify-items-center ">
+        <div class="container">
+
+            <h1 class="text-3xl md:text-4xl text-white font-giga px-4">My Skills</h1>
+                <div class="bg-white border absolute border-white rotate-90 ml-6 rounded-lg w-1 h-20 translate-y-[-57px] translate-x-[205px] md:h-[400px] md:translate-y-[-220px] md:translate-x-[400px]"></div>
+                
+
+            <div class="flex flex-wrap px-4 text-white md:px-40">
+
+                
+                <div class="my-10 w-full">
+                    <div class="items-center justify-items-center grid grid-cols-3 gap-6">
+                        <div class="flex items-center  gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" class="size-12 lg:size-16"><path fill="#e44f26" d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30z"></path><path fill="#f1662a" d="m16 27.858l8.17-2.265l1.922-21.532H16z"></path><path fill="#ebebeb" d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004z"></path><path fill="#fff" d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83z"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">HTML</span>
+                        </div>
+
+                        <div class="flex items-center  gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128" class="size-12 lg:size-16"><path fill="#1572b6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754l-45.243 12.543z"></path><path fill="#33a9dc" d="m64.001 117.062l36.559-10.136l8.601-96.354h-45.16z"></path><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711l-3.4 38.114h-30.95z"></path><path fill="#ebebeb" d="m64.083 87.349l-.061.018l-15.403-4.159l-.985-11.031H33.752l1.937 21.717l28.331 7.863l.063-.018z"></path><path fill="#fff" d="m81.127 64.675l-1.666 18.522l-15.426 4.164v14.39l28.354-7.858l.208-2.337l2.406-26.881z"></path><path fill="#ebebeb" d="M64.048 23.435v13.831H30.64l-.277-3.108l-.63-7.012l-.331-3.711zm-.047 27.996v13.831H48.792l-.277-3.108l-.631-7.012l-.33-3.711z"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">CSS</span>
+                        </div>
+                        
+                        <div class="flex items-center  gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256" class="size-12 lg:size-16"><path fill="#f7df1e" d="M0 0h256v256H0z"></path><path d="m67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371c7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259c-19.245 0-30.416-9.967-36.087-21.996m85.07-2.576l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607c9.969 0 16.325-4.984 16.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257c0-18.044 13.747-31.792 35.228-31.792c15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046 0-11.514 4.468-11.514 10.31c0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804c0 21.654-17.012 33.51-39.867 33.51c-22.339 0-36.774-10.654-43.819-24.574"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">JavaScript</span>
+                        </div>
+
+                        <div class="flex items-center  gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128" class="size-12 lg:size-16"><path fill="#38bdf8" d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597c6.398-8.531 13.867-11.73 22.398-9.597c4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602q-9.6 12.803-22.399 9.602c-4.87-1.215-8.347-4.746-12.207-8.66c-6.27-6.367-13.53-13.738-29.394-13.738M32.004 64c-17.066 0-27.73 8.531-32 25.602Q9.603 76.799 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66c6.274 6.367 13.536 13.738 29.395 13.738c17.066 0 27.73-8.53 32-25.597q-9.6 12.797-22.399 9.597c-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64m0 0"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">Tailwindcss</span>
+                    </div>
+
+                        <div class="flex items-center  gap-4">
+                        <img src="dist/img/icon/c.svg" alt=""  width="1em" height="1em" viewBox="0 0 128 128" class="size-12 lg:size-16">
+                        <span class="font-semibold md:text-lg hidden sm:block">C++</span>
+                    </div>
+
+                        <div class="flex items-center  gap-4">
+                        <img src="dist/img/icon/bootstrap.svg"  width="1em" height="1em" viewBox="0 0 128 128" class="size-12 lg:size-16" alt="">
+                        <span class="font-semibold md:text-lg hidden sm:block">bootstrap</span>
+                    </div>
+
+                    </div>
+                </div>
+            
+                <h1 class="text-3xl md:text-4xl text-white font-giga mt-10 px-4"> Upcoming Skills</h1>
+               
+                <div class="mt-16 w-full">
+                    <div class="items-center justify-items-center grid grid-cols-3 gap-6">
+                        <div class="flex items-center  gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128" class="size-12 lg:size-16"><circle cx="64" cy="64" r="64"></circle><path fill="url(#deviconNextjs0)" d="M106.317 112.014L49.167 38.4H38.4v51.179h8.614v-40.24l52.54 67.884a64 64 0 0 0 6.763-5.209"></path><path fill="url(#deviconNextjs1)" d="M81.778 38.4h8.533v51.2h-8.533z"></path><defs><linearGradient id="deviconNextjs0" x1="109" x2="144.5" y1="116.5" y2="160.5" gradientTransform="scale(.71111)" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient><linearGradient id="deviconNextjs1" x1="121" x2="120.799" y1="54" y2="106.875" gradientTransform="scale(.71111)" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient></defs></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">Next.JS</span>
+                        </div>
+
+                        <div class="flex items-center  gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.13em" height="1em" viewBox="0 0 256 228" class="size-12 lg:size-16"><path fill="#00d8ff" d="M210.483 73.824a172 172 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621c6.238-30.281 2.16-54.676-11.769-62.708c-13.355-7.7-35.196.329-57.254 19.526a171 171 0 0 0-6.375 5.848a156 156 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233C50.33 10.957 46.379 33.89 51.995 62.588a171 171 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.309 83.498 0 98.307 0 113.668c0 15.865 18.582 31.778 46.812 41.427a146 146 0 0 0 6.921 2.165a168 168 0 0 0-2.01 9.138c-5.354 28.2-1.173 50.591 12.134 58.266c13.744 7.926 36.812-.22 59.273-19.855a146 146 0 0 0 5.342-4.923a168 168 0 0 0 6.92 6.314c21.758 18.722 43.246 26.282 56.54 18.586c13.731-7.949 18.194-32.003 12.4-61.268a145 145 0 0 0-1.535-6.842c1.62-.48 3.21-.974 4.76-1.488c29.348-9.723 48.443-25.443 48.443-41.52c0-15.417-17.868-30.326-45.517-39.844m-6.365 70.984q-2.102.694-4.3 1.345c-3.24-10.257-7.612-21.163-12.963-32.432c5.106-11 9.31-21.767 12.459-31.957c2.619.758 5.16 1.557 7.61 2.4c23.69 8.156 38.14 20.213 38.14 29.504c0 9.896-15.606 22.743-40.946 31.14m-10.514 20.834c2.562 12.94 2.927 24.64 1.23 33.787c-1.524 8.219-4.59 13.698-8.382 15.893c-8.067 4.67-25.32-1.4-43.927-17.412a157 157 0 0 1-6.437-5.87c7.214-7.889 14.423-17.06 21.459-27.246c12.376-1.098 24.068-2.894 34.671-5.345q.785 3.162 1.386 6.193M87.276 214.515c-7.882 2.783-14.16 2.863-17.955.675c-8.075-4.657-11.432-22.636-6.853-46.752a157 157 0 0 1 1.869-8.499c10.486 2.32 22.093 3.988 34.498 4.994c7.084 9.967 14.501 19.128 21.976 27.15a135 135 0 0 1-4.877 4.492c-9.933 8.682-19.886 14.842-28.658 17.94M50.35 144.747c-12.483-4.267-22.792-9.812-29.858-15.863c-6.35-5.437-9.555-10.836-9.555-15.216c0-9.322 13.897-21.212 37.076-29.293c2.813-.98 5.757-1.905 8.812-2.773c3.204 10.42 7.406 21.315 12.477 32.332c-5.137 11.18-9.399 22.249-12.634 32.792a135 135 0 0 1-6.318-1.979m12.378-84.26c-4.811-24.587-1.616-43.134 6.425-47.789c8.564-4.958 27.502 2.111 47.463 19.835a144 144 0 0 1 3.841 3.545c-7.438 7.987-14.787 17.08-21.808 26.988c-12.04 1.116-23.565 2.908-34.161 5.309a160 160 0 0 1-1.76-7.887m110.427 27.268a348 348 0 0 0-7.785-12.803c8.168 1.033 15.994 2.404 23.343 4.08c-2.206 7.072-4.956 14.465-8.193 22.045a381 381 0 0 0-7.365-13.322m-45.032-43.861c5.044 5.465 10.096 11.566 15.065 18.186a322 322 0 0 0-30.257-.006c4.974-6.559 10.069-12.652 15.192-18.18M82.802 87.83a323 323 0 0 0-7.227 13.238c-3.184-7.553-5.909-14.98-8.134-22.152c7.304-1.634 15.093-2.97 23.209-3.984a322 322 0 0 0-7.848 12.897m8.081 65.352c-8.385-.936-16.291-2.203-23.593-3.793c2.26-7.3 5.045-14.885 8.298-22.6a321 321 0 0 0 7.257 13.246c2.594 4.48 5.28 8.868 8.038 13.147m37.542 31.03c-5.184-5.592-10.354-11.779-15.403-18.433c4.902.192 9.899.29 14.978.29c5.218 0 10.376-.117 15.453-.343c-4.985 6.774-10.018 12.97-15.028 18.486m52.198-57.817c3.422 7.8 6.306 15.345 8.596 22.52c-7.422 1.694-15.436 3.058-23.88 4.071a382 382 0 0 0 7.859-13.026a347 347 0 0 0 7.425-13.565m-16.898 8.101a359 359 0 0 1-12.281 19.815a329 329 0 0 1-23.444.823c-7.967 0-15.716-.248-23.178-.732a310 310 0 0 1-12.513-19.846h.001a307 307 0 0 1-10.923-20.627a310 310 0 0 1 10.89-20.637l-.001.001a307 307 0 0 1 12.413-19.761c7.613-.576 15.42-.876 23.31-.876H128c7.926 0 15.743.303 23.354.883a329 329 0 0 1 12.335 19.695a359 359 0 0 1 11.036 20.54a330 330 0 0 1-11 20.722m22.56-122.124c8.572 4.944 11.906 24.881 6.52 51.026q-.518 2.504-1.15 5.09c-10.622-2.452-22.155-4.275-34.23-5.408c-7.034-10.017-14.323-19.124-21.64-27.008a161 161 0 0 1 5.888-5.4c18.9-16.447 36.564-22.941 44.612-18.3M128 90.808c12.625 0 22.86 10.235 22.86 22.86s-10.235 22.86-22.86 22.86s-22.86-10.235-22.86-22.86s10.235-22.86 22.86-22.86"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">React.JS</span>
+                        </div>
+                        
+                        <div class="flex items-center  gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" class="size-12 lg:size-16"><path fill="#83cd29" d="M16 30a2.15 2.15 0 0 1-1.076-.288L11.5 27.685c-.511-.286-.262-.387-.093-.446a6.8 6.8 0 0 0 1.549-.7a.26.26 0 0 1 .255.019l2.631 1.563a.34.34 0 0 0 .318 0l10.26-5.922a.32.32 0 0 0 .157-.278V10.075a.33.33 0 0 0-.159-.283l-10.26-5.917a.32.32 0 0 0-.317 0L5.587 9.794a.33.33 0 0 0-.162.281v11.841a.32.32 0 0 0 .161.274L8.4 23.814c1.525.762 2.459-.136 2.459-1.038V11.085a.3.3 0 0 1 .3-.3h1.3a.3.3 0 0 1 .3.3v11.692c0 2.035-1.108 3.2-3.038 3.2a4.4 4.4 0 0 1-2.363-.642l-2.697-1.547a2.17 2.17 0 0 1-1.076-1.872V10.075A2.16 2.16 0 0 1 4.661 8.2l10.261-5.924a2.25 2.25 0 0 1 2.156 0L27.338 8.2a2.17 2.17 0 0 1 1.077 1.87v11.846a2.17 2.17 0 0 1-1.077 1.872l-10.26 5.924A2.15 2.15 0 0 1 16 30"></path><path fill="#83cd29" d="M14.054 17.953a.3.3 0 0 1 .3-.3h1.327a.3.3 0 0 1 .295.251c.2 1.351.8 2.032 3.513 2.032c2.161 0 3.082-.489 3.082-1.636c0-.661-.261-1.152-3.62-1.481c-2.808-.278-4.544-.9-4.544-3.144c0-2.07 1.745-3.305 4.67-3.305c3.287 0 4.914 1.141 5.12 3.589a.3.3 0 0 1-.295.323h-1.336a.3.3 0 0 1-.288-.232c-.319-1.421-1.1-1.875-3.2-1.875c-2.36 0-2.634.822-2.634 1.438c0 .746.324.964 3.51 1.385c3.153.417 4.651 1.007 4.651 3.223c0 2.236-1.864 3.516-5.115 3.516c-4.495.006-5.436-2.055-5.436-3.784"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">Node.JS</span>
+                        </div>
+
+                        <div class="flex items-center  gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="0.97em" height="1em" viewBox="0 0 256 264" class="size-12 lg:size-16"><path fill="#ff2d20" d="M255.856 59.62c.095.351.144.713.144 1.077v56.568c0 1.478-.79 2.843-2.073 3.578L206.45 148.18v54.18a4.14 4.14 0 0 1-2.062 3.579l-99.108 57.053c-.227.128-.474.21-.722.299c-.093.03-.18.087-.278.113a4.15 4.15 0 0 1-2.114 0c-.114-.03-.217-.093-.325-.134c-.227-.083-.464-.155-.68-.278L2.073 205.938A4.13 4.13 0 0 1 0 202.36V32.656c0-.372.052-.733.144-1.083c.031-.119.103-.227.145-.346c.077-.216.15-.438.263-.639c.077-.134.19-.242.283-.366c.119-.165.227-.335.366-.48c.119-.118.274-.206.408-.309c.15-.124.283-.258.453-.356h.005L51.613.551a4.14 4.14 0 0 1 4.125 0l49.546 28.526h.01c.165.104.305.232.454.351c.134.103.284.196.402.31c.145.149.248.32.371.484c.088.124.207.232.279.366c.118.206.185.423.268.64c.041.118.113.226.144.35c.095.351.144.714.145 1.078V138.65l41.286-23.773V60.692c0-.36.052-.727.145-1.072c.036-.124.103-.232.144-.35c.083-.217.155-.44.268-.64c.077-.134.19-.242.279-.366c.123-.165.226-.335.37-.48c.12-.118.269-.206.403-.309c.155-.124.289-.258.454-.356h.005l49.551-28.526a4.13 4.13 0 0 1 4.125 0l49.546 28.526c.175.103.309.232.464.35c.128.104.278.197.397.31c.144.15.247.32.37.485c.094.124.207.232.28.366c.118.2.185.423.267.64c.047.118.114.226.145.35m-8.115 55.258v-47.04l-17.339 9.981l-23.953 13.792v47.04l41.297-23.773zm-49.546 85.095V152.9l-23.562 13.457l-67.281 38.4v47.514zM8.259 39.796v160.177l90.833 52.294v-47.505L51.64 177.906l-.015-.01l-.02-.01c-.16-.093-.295-.227-.444-.34c-.13-.104-.279-.186-.392-.3l-.01-.015c-.134-.129-.227-.289-.34-.433c-.104-.14-.227-.258-.31-.402l-.005-.016c-.093-.154-.15-.34-.217-.515c-.067-.155-.154-.3-.196-.464v-.005c-.051-.196-.061-.403-.082-.604c-.02-.154-.062-.309-.062-.464V63.57L25.598 49.772l-17.339-9.97zM53.681 8.893L12.399 32.656l41.272 23.762L94.947 32.65L53.671 8.893zm21.468 148.298l23.948-13.786V39.796L81.76 49.778L57.805 63.569v103.608zM202.324 36.935l-41.276 23.762l41.276 23.763l41.271-23.768zm-4.13 54.676l-23.953-13.792l-17.338-9.981v47.04l23.948 13.787l17.344 9.986zm-94.977 106.006l60.543-34.564l30.264-17.272l-41.246-23.747l-47.489 27.34l-43.282 24.918z"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">Laravel</span>
+                    </div>
+
+                        <div class="flex items-center  gap-4">
+                        <svg width="76" height="24" viewBox="0 0 76 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"><path d="M43.9022 20.0061H46.4499C46.2647 19.0375 46.17 18.1161 46.17 17.0058V12.3753C46.17 9.25687 44.3893 7.72127 41.1943 7.72127C38.3003 7.72127 36.3324 9.23324 36.0777 11.8083H38.9254C39.0181 10.698 39.8052 9.96561 41.1017 9.96561C42.4446 9.96561 43.3243 10.6743 43.3243 12.1391V12.7061L39.8052 13.1077C37.4206 13.3912 35.5684 14.3834 35.5684 16.7931C35.5684 18.9666 37.2353 20.2659 39.5274 20.2659C41.4027 20.2659 42.9845 19.4863 43.6401 18.1161C43.6689 18.937 43.9022 20.0061 43.9022 20.0061ZM40.3377 18.1634C39.157 18.1634 38.5087 17.5727 38.5087 16.6278C38.5087 15.3757 39.4579 15.0922 40.7082 14.9268L43.3243 14.6197V15.352C43.3243 17.242 41.8658 18.1634 40.3377 18.1634ZM56.2588 20.0061H59.176V3H56.2125V9.96561C55.6569 8.76075 54.3141 7.72127 52.4851 7.72127C49.3058 7.72127 47.099 10.2963 47.099 14.0054C47.099 17.7381 49.3058 20.2896 52.4851 20.2896C54.2678 20.2896 55.68 19.2973 56.2588 18.0925V20.0061ZM56.282 14.218C56.282 16.5569 55.1938 18.0689 53.3185 18.0689C51.3969 18.0689 50.1856 16.486 50.1856 14.0054C50.1856 11.5485 51.3969 9.94198 53.3185 9.94198C55.1938 9.94198 56.282 11.454 56.282 13.7928V14.218ZM60.9066 5.97304H64.0553V3.01996H60.9066V5.97304ZM60.9992 20.0061H63.9627V8.00476H60.9992V20.0061ZM67.6638 20.0061L70.6041 15.8954L73.5212 20.0061H76.9246L72.3636 13.7219L76.5542 8.00476H73.3823L70.7661 11.7138L68.1731 8.00476H64.7697L69.0066 13.8637L64.4919 20.0061H67.6638Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M24.9132 20V14.0168H28.7986L32.4513 20H35.7006L31.6894 13.5686C33.5045 12.986 35.0955 11.507 35.0955 9.01961C35.0955 5.7479 32.7994 4 28.9571 4H22V20H24.9132ZM24.9132 6.35294V11.6863H28.821C31.0395 11.6863 32.1599 10.7675 32.1599 9.01961C32.1599 7.27171 30.9395 6.35294 28.621 6.35294H24.9132Z"></path><path d="M7 23C3.13401 23 0 19.6422 0 15.5C0 11.3578 3.13401 8 7 8V23Z"></path><path d="M7 0H0V7H7V0Z"></path><path d="M11.5 7C13.433 7 15 5.433 15 3.5C15 1.567 13.433 0 11.5 0C9.56704 0 8 1.567 8 3.5C8 5.433 9.56704 7 11.5 7Z"></path></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">Radix UI</span>
+                    </div>
+
+                        <div class="flex items-center  gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="size-10 lg:size-16"><rect width="256" height="256" fill="none"></rect><line x1="208" y1="128" x2="128" y2="208" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></line><line x1="192" y1="40" x2="40" y2="192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></line></svg>
+                        <span class="font-semibold md:text-lg hidden sm:block">Shadcn UI</span>
+                    </div>
+
+                    <div class="flex items-center  gap-4">
+                        <img src="dist/img/icon/image.webp" alt="" width="1em" height="1em" viewBox="0 0 128 128" class="size-12 lg:size-16">
+                    <span class="font-semibold md:text-lg hidden sm:block">Acerternity UI</span>
+                    </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="proj" class="pt-16 lg:pt-20 justify-center justify-items-center ">
+        <div class="container">
+
+            <h1 class="text-3xl md:text-4xl text-white font-giga px-4">Projects</h1>
+                <div class="bg-white border absolute border-white rotate-90 ml-6 rounded-lg w-1 h-20 translate-y-[-57px] translate-x-[205px] md:h-[400px] md:translate-y-[-220px] md:translate-x-[400px]"></div>
+               
+
+            <div class="flex flex-wrap px-4 md:px-32 text-white justify-center justify-items-center mt-16 w-full">
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:px-20 justify-center ">
+                    <!-- Card 1 -->
+                    <div class="shadow-xl rounded-lg overflow-hidden bg-[#1E201E] p-4 outline-1 outline-gray-500 transition-all duration-300 ease-in-out">
+                        <img src="dist/img/Project/p2.png" alt="Product 1" class="w-full object-cover rounded-lg ">
+                        <div class=" py-4">
+                            <h3 class="text-lg font-semibold md:text-xl">Login Prototype</h3>
+                            <span class="text-sm">A login page design for GAHX</span>
+
+                            <div class="mt-2 flex items-center gap-2">
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-lg overflow-hidden bg-[#1E201E] p-4 outline-1 outline-gray-500 transition-all duration-300 ease-in-out ">
+                        <img src="dist/img/Project/p5.png" alt="Product 1" class="w-full object-cover rounded-lg ">
+                        <div class=" py-4">
+                            <h3 class="text-lg font-semibold md:text-xl">GAHX</h3>
+                            <span class="text-sm">A gallery website for my final exam in high school </span>
+
+                            <div class="mt-2 flex items-center gap-2">
+                                <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">php</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">Bootstrap</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">Mysql</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-lg overflow-hidden bg-[#1E201E] p-4 outline-1 outline-gray-500 transition-all duration-300 ease-in-out ">
+                        <img src="dist/img/Project/p4.png" alt="Product 1" class="w-full object-cover rounded-lg ">
+                        <div class=" py-4">
+                            <h3 class="text-lg font-semibold md:text-xl">Poster</h3>
+                            <span class="text-sm">I made this poster as my practice as a designer</span>
+
+                            <div class="mt-2 flex items-center gap-2">
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">Photoshop</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-lg overflow-hidden bg-[#1E201E] p-4 outline-1 outline-gray-500 transition-all duration-300 ease-in-out ">
+                        <img src="dist/img/Project/p7.png" alt="Product 1" class="w-full object-cover rounded-lg ">
+                        <div class=" py-4">
+                            <h3 class="text-lg font-semibold md:text-xl">Four.a</h3>
+                            <span class="text-sm">Coffeeshop website with simple ui</span>
+
+                            <div class="mt-2 flex items-center gap-2">
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">html</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">TailwindCSS</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-lg overflow-hidden bg-[#1E201E] p-4 outline-1 outline-gray-500 transition-all duration-300 ease-in-out ">
+                        <img src="dist/img/Project/p8.png" alt="Product 1" class="w-full object-cover rounded-lg ">
+                        <div class=" py-4">
+                            <h3 class="text-lg font-semibold md:text-xl">Jus Buah</h3>
+                            <span class="text-sm">Simple fruit juice website with some animations</span>
+
+                            <div class="mt-2 flex items-center gap-2">
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">html</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">TailwindCSS</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" shadow-xl rounded-lg overflow-hidden bg-[#1E201E]v p-4 outline-1 outline-gray-500 transition-all duration-300 ease-in-out ">
+                        <img src="dist/img/Project/p6.png" alt="Product 1" class="w-full object-cover rounded-lg ">
+                        <div class=" py-4">
+                            <h3 class="text-lg font-semibold md:text-xl">SMK Pratama</h3>
+                            <span class="text-sm">A website to view school statistics and also new students can register</span>
+
+                            <div class="mt-2 flex items-center gap-2">
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">html</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">php</p>
+                            <p class="bg-white text-black px-2 py-1 text-sm font-bold rounded-md">Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+    
+            </div>
+        </div>
+    </section>    
+    
+    <section id="cont" class="pt-16 lg:pt-20 justify-center justify-items-center ">
+        <div class="container">
+
+            <h1 class="text-3xl md:text-4xl text-white font-giga px-4">Contact</h1>
+            <div class="bg-white border absolute border-white rotate-90 ml-6 rounded-lg w-1 h-20 translate-y-[-57px] translate-x-[205px] md:h-[400px] md:translate-y-[-220px] md:translate-x-[400px]"></div>
+            <div class="my-16 w-full ">
+
+        <div class="mt-5 justify-items-center text-center md:text-2xl px-4 text-white md:px-96 ">
+
+            <p class=" ">I would like a new opportunity to work with you, I am happy to do so. If you have any questions, 
+                please contact me below.</p>
+            
+            <div class="flex flex-wrap justify-center mt-6">
+            <a href="https://github.com/harysm" class=" flex text-lg items-center mr-4 transition-all duration-300 ease-in-out hover:bg-gray-500  outline-2 rounded-full px-1 ">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="20px" class="fill-current mr-2"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                Github 
+                </a>
+            <a href="https://www.linkedin.com/in/m-harys-rusty-wibawa-97b83a290/" class="flex text-lg items-center mr-4 transition-all duration-300 ease-in-out hover:bg-gray-500  outline-2 rounded-full px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  width="20px" class="fill-current mr-2"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                Linkedin 
+                </a>
+            <a href="" class="flex text-lg items-center mr-4 transition-all duration-300 ease-in-out hover:bg-gray-500  outline-2 rounded-full px-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" class="fill-current mr-2"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                Email 
+                </a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<footer class="pt-5 md:pt-16 items-center justify-items-center">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-5 text-white font-medium md:w-1/2 text-center">
+                <h2 class=" text-sm text-slate-400/60 mt-3 hidden md:block">Inspired By <a href="https://aafrzl.my.id/" class="text-white">Afrizal</a>,<a href="https://rivaldotandoko.vercel.app/" class="text-white">Rivaldo</a></h2>
+                <p class="text-sm text-slate-400/60 text-center hidden md:block">Developed by  M Harys Rusty Wibawa</p>
+            </div>
+            <div class="w-full px-4 mb-5  md:w-1/2">
+                <p class=" text-sm text-slate-400/60 text-center block md:hidden">Developed by  <span class="text-white">M Harys Rusty Wibawa</span></p>
+                <p class=" text-sm text-slate-400/60 text-center">@2025 M Harys Rusty Wibwa -- Medan, Indonesia</p>
+                <div class="flex justify-center my-5">
+                    
+                    <!-- Instagram -->
+                     <a href="https://www.instagram.com/harys_rusty/" target="blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-none hover:border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all ease-in-out dark:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+                        </svg>
+                    </a>
+
+                    <!-- Linkedin -->
+                    <a href="https://www.linkedin.com/in/m-harys-rusty-wibawa-97b83a290/" target="blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-none hover:border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all ease-in-out dark:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        
+                    </a>
+
+                    <!-- github -->
+                    <a href="https://github.com/harysm" target="blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-none hover:border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all ease-in-out dark:text-white ">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                        
+                    </a>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
