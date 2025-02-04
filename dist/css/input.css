@@ -1,86 +1,78 @@
-
 @import "tailwindcss";
 
-  @font-face {
-    font-family: 'Lexend Giga';
-    src: url('../font/LexendGiga-VariableFont_wght.ttf') format('truetype');
-  }
+@font-face {
+  font-family: "Lexend Giga";
+  src: url("../font/LexendGiga-VariableFont_wght.ttf") format("truetype");
+}
 
-  @font-face {
-    font-family: 'Montserrat';
-    src: url('../font/Montserrat-VariableFont_wght.ttf') format('truetype');
-  }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
 
-  @font-face {
-    font-family: 'Quicksand';
-    src: url('../font/Quicksand-VariableFont_wght.ttf') format('truetype');
-  }
-  
-  @font-face {
-    font-family: 'Poiret One';
-    src: url('../font/PoiretOne-Regular.ttf') format('truetype');
-  }
-  
+@font-face {
+  font-family: "Quicksand";
+  src: url("../font/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poiret One";
+  src: url("../font/PoiretOne-Regular.ttf") format("truetype");
+}
+
 @theme {
---font-giga : Lexend Giga;
---font-mons : Montserrat;
---font-sand : Quicksand;
---font-one : Poiret One;
-
-
+  --font-giga: Lexend Giga;
+  --font-mons: Montserrat;
+  --font-sand: Quicksand;
+  --font-one: Poiret One;
 }
 
 body {
-    background-color : #161616;
-    font-family : Quicksand;
+  background-color: #161616;
+  font-family: Quicksand;
 }
 
-
-
 .navbar-fixed {
-    @apply fixed z-[9999] 
-    bg-transparent backdrop-blur-[10px] transition-all duration-300 ease-in-out;
-    box-shadow: inset 0 -1px 0 0 rgba(0,0,0, );
+  @apply fixed z-[9999] 
+    bg-black/20 backdrop-blur-[25px] transition-all duration-300 ease-in-out;
 }
 
 .ham-line {
-    @apply w-[30px] h-[2px] my-2 block bg-white ;
+  @apply w-[30px] h-[2px] my-2 block bg-white;
 }
 
 .ham-menu {
-    @apply text-white lg:text-xl py-2 mr-3 md:lg:mr-10 flex transition-all duration-200 ease-in-out justify-end dark:lg:text-white  hover:scale-110 lg:justify-center ;
+  @apply text-white lg:text-xl py-2 mr-3 md:lg:mr-10 flex transition-all duration-200 ease-in-out justify-end dark:lg:text-white  hover:scale-110 lg:justify-center;
 }
 
 .ham-menu1 {
-    @apply text-white lg:text-xl py-2 mr-3 md:lg:mr-0 flex transition-all duration-200 ease-in-out justify-end dark:lg:text-white  hover:scale-110 lg:justify-center ;
+  @apply text-white lg:text-xl py-2 mr-3 md:lg:mr-0 flex transition-all duration-200 ease-in-out justify-end dark:lg:text-white  hover:scale-110 lg:justify-center;
 }
 
 .ham-act > span:nth-child(1) {
-    @apply -rotate-45;
+  @apply -rotate-45;
 }
 
 .ham-act > span:nth-child(2) {
-    @apply -rotate-180 scale-0;
+  @apply scale-0;
 }
 
 .ham-act > span:nth-child(3) {
-    @apply  rotate-45;
+  @apply rotate-45;
 }
 
 #dark-toggle:checked ~ label div.toggle-circle {
-    @apply translate-x-3;
+  @apply translate-x-3;
 }
 
-
 .hero-a1 {
-    @apply fill-current my-10 hover:scale-125   transition-all duration-300 ease-in-out;
+  @apply fill-current my-10 hover:scale-125   transition-all duration-300 ease-in-out;
 }
 
 .hero-a2 {
-    @apply fill-current mr-10 hover:scale-125   transition-all duration-300 ease-in-out;
+  @apply fill-current mr-10 hover:scale-125   transition-all duration-300 ease-in-out;
 }
 
 .a3 {
-    @apply flex text-lg items-center mr-4 hover:
+  @apply flex text-lg items-center mr-4;
 }
-
